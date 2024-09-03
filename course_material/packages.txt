@@ -1,0 +1,9 @@
+package version
+exams   2.4.1
+magick  2.8.4
+pdftools    3.4.0
+kinship2    1.9.6.1
+pedtools    2.7.0
+kableExtra  1.4.0
+reticulate  1.38.0
+
