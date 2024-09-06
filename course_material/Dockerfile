@@ -48,6 +48,8 @@ RUN dnf install -y dnf-plugins-core \
     texlive-genealogytree \
     texlive-tikzfill \
     tex-preview \
+    texlive-luatex85 \
+    texlive-pgfmolbio \
 # Python stuff needed
     python3-pip \
 # Compilation dependencies for R packages:
