@@ -14,7 +14,7 @@ COPY . /app
 RUN dnf install -y dnf-plugins-core cc openssl-devel rustup && \
     rustup-init -y && \
     . "$HOME/.cargo/env" \
-    rustup toolchain install stable && \
+    rustup toolchain install 1.90.0 && \
     cargo install --target-dir /app --locked typst-cli@0.13.1 && \
     cp "$HOME/.cargo/bin/typst" /app/typst
 
