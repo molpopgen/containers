@@ -18,9 +18,6 @@ RUN dnf install -y dnf-plugins-core cc openssl-devel rustup && \
     cargo install --target-dir /app --locked typst-cli@0.13.1 && \
     cp "$HOME/.cargo/bin/typst" /app/typst
 
-RUN . "$HOME/.cargo/env" && typst
-
-
 FROM quay.io/fedora/fedora:42
 
 WORKDIR /app
